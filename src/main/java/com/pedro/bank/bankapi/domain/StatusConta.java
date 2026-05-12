@@ -1,4 +1,7 @@
 package com.pedro.bank.bankapi.domain;
 
-public class StatusConta {
+public enum StatusConta {
+    ATIVA,
+    BLOQUEADA,
+    ENCERRADA
 }
